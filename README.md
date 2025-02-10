@@ -13,5 +13,7 @@ catkin_make
 4) this are from the following guid: https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/ 
 
 sudo cp ./99-dynamixel-workbench-cdc.rules /etc/udev/rules.d/ 
+
 sudo udevadm control --reload-rules
+
 sudo udevadm trigger
