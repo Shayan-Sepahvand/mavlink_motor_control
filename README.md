@@ -24,3 +24,5 @@ sudo udevadm trigger
 rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
 
 6) Connect via the vscode
+
+7) Create a ros package for motor controll that uses the scripts and launch files of the dynamixel
