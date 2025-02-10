@@ -30,3 +30,16 @@ rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
 
 catkin_create_pkg motor_control std_msgs rospy
 
+
+rosservice call /dynamixel_workbench/dynamixel_command "command: ''
+id: 10
+addr_name: 'Torque_Enable'
+value: 0" 
+
+
+
+rosservice call /dynamixel_workbench/dynamixel_command "command: ''
+id: 10
+addr_name: 'Operating_Mode'
+value: 3" 
+comm_result: True
