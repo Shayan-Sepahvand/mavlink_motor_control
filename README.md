@@ -26,9 +26,9 @@ sudo udevadm trigger
 
 5) The following will search for the dynamixel motors id and baudrate:
 
-```
-rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
 ```bash
+rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
+```
 
 6) Connect via the vscode
 
