@@ -23,3 +23,4 @@ sudo udevadm trigger
 
 rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
 
+6) Connect via the vscode
