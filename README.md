@@ -8,3 +8,10 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
 catkin_make
 
 3) Connect the motor baord to the jetson.
+
+
+4) this are from the following guid: https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/ 
+
+sudo cp ./99-dynamixel-workbench-cdc.rules /etc/udev/rules.d/ 
+sudo udevadm control --reload-rules
+sudo udevadm trigger
