@@ -7,3 +7,4 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
 
 catkin_make
 
+3) Connect the motor baord to the jetson.
