@@ -17,3 +17,9 @@ sudo cp ./99-dynamixel-workbench-cdc.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 
 sudo udevadm trigger
+
+5) The following will search for the dynamixel motors id and baudrate:
+
+
+rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
+
