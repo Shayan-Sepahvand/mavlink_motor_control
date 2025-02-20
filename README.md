@@ -29,6 +29,9 @@ sudo udevadm trigger
 ```bash
 rosrun dynamixel_workbench_controllers find_dynamixel /dev/ttyUSB0
 ```
+```bash
+roslaunch motor_control dynamixel_start.launch
+```
 
 6) Connect via the vscode
 
@@ -51,3 +54,6 @@ addr_name: 'Operating_Mode'
 value: 3" 
 comm_result: True
 ```
+
+
+
